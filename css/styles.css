@@ -1,0 +1,127 @@
+body{
+  color: #40514E;/* used to select color*/
+  margin: 0;/* adjust image or text property related to position*/
+  /* text align used align heading and paragraph in centre*/
+  text-align: center;
+  font-family:sans-serif;/* used to set font in body as default*/
+}
+h1{
+  margin-top: 0;
+  margin: auto 0 auto;
+  font-family: "sacramento", serif;
+  /* em and rem is used to select font size we better use rem because of non dependency on body font sizes*/
+  font-size: 5.00rem;
+  color:#66BFBF;
+}
+h2{
+  font-size: 1.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  height: 4px;/* used to increase height of text of paragraph*/
+}
+h3{
+  color: #11999E;
+  font-size: 1.2rem;
+}
+hr{
+   border:dotted black 6px;
+   border-bottom: 0;
+   width: 5%;/* width is used to adjust text according to screen usually used in heading and paragraph and horizontal line */
+   margin: 100px auto;
+}
+/* after we name class in html we style it using css after using class name followed by dot{.}*/
+.p{
+  width: 30%;
+  margin:auto;
+  line-height: 2;/*line height used to increase height between two paragraph to ease reading*/
+}
+
+.footer-link{
+    color: #11999E;
+}
+/* by using div we divide colour segements on body according to use*/
+.top-container{
+    background-color: #C1F4C5;
+    padding: 100px;/* it is position proverty we can use to produce space between the text and image*/
+}
+.middle-container{
+  padding: 100px 0;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+a{
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.copyright{
+  padding: 30px 0 20px;
+  font-size: 0.5rem;
+}
+
+.eng{
+    text-decoration: underline;
+}
+.bottom-cloud{
+  position: absolute;
+  margin-top: 40px;
+}
+.top-cloud{
+  margin-left: 500px;
+}
+.pic{
+  height: 200px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.website{
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+}
+.pithon{
+  width: 25%;
+  float: right;/* float is used to adjust image or text or paragraph relative to the certain image or text*/
+  margin-right: 30px;
+}
+.contact{
+  width: 30%;
+  margin: 40px auto 60px;
+  line-height: 2;
+}
+.btn {
+  background: #538bb0;
+  background-image: -webkit-linear-gradient(top, #538bb0, #2bb8b8);
+  background-image: -moz-linear-gradient(top, #538bb0, #2bb8b8);
+  background-image: -ms-linear-gradient(top, #538bb0, #2bb8b8);
+  background-image: -o-linear-gradient(top, #538bb0, #2bb8b8);
+  background-image: linear-gradient(to bottom, #538bb0, #2bb8b8);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  border: solid #1971a8 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
